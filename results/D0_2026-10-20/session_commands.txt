@@ -1,0 +1,18 @@
+D0 session command record (summarized from actual tool calls, not a raw terminal transcript).
+2026-10-20:
+git ls-remote https://gitee.com/switchpi/dummy.git refs/heads/auk
+Result: 3a9d17464308e1532b3d648a80da6db899cc1f01 refs/heads/auk
+git ls-remote https://github.com/pipi2023911-spec/dummy-ros2.git
+Result: successful empty output; clone subsequently reported empty repository.
+git clone --depth 1 --filter=blob:none --sparse --branch auk https://gitee.com/switchpi/dummy.git 05_ROS2/upstream_dummy_auk_20261020
+git sparse-checkout set ros2/dummy_ws/src
+git clone https://github.com/pipi2023911-spec/dummy-ros2.git 05_ROS2/dummy_motion_planning
+python -m venv 05_ROS2/.d0_tools_20261020
+05_ROS2/.d0_tools_20261020/Scripts/python.exe -m pip install --retries 0 xacro==2.1.1 PyYAML==6.0.3
+../.d0_tools_20261020/Scripts/python.exe tools/audit_model.py --output results/D0_2026-10-20/static_audit.json
+Result: PASS_STATIC_ONLY (see static_audit.log).
+Initial sandbox network calls failed; network-enabled retries succeeded.
+2026-10-21:
+../.d0_tools_20261020/Scripts/python.exe tools/audit_model.py --output results/D0_2026-10-21/static_audit.json
+Result: PASS_STATIC_ONLY (see ../D0_2026-10-21_static_audit.log).
+Jazzy build / C++ runtime / RViz: NOT RUN. Ubuntu is the user's other dual-boot system.

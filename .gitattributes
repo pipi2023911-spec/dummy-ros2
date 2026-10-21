@@ -1,0 +1,2 @@
+# Preserve imported source bytes so provenance SHA-256 remains reproducible.
+* -text

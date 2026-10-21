@@ -1,0 +1,494 @@
+{
+  "status": "PASS_STATIC_ONLY",
+  "links": 8,
+  "joints": [
+    {
+      "name": "world_joint",
+      "type": "fixed",
+      "parent": "world",
+      "child": "base_link",
+      "origin": {
+        "xyz": "0.0 0.0 0.0",
+        "rpy": "3.1415926536 3.1415926536 0.0"
+      },
+      "axis": null,
+      "limits": null
+    },
+    {
+      "name": "Joint1",
+      "type": "revolute",
+      "parent": "base_link",
+      "child": "link1_1_1",
+      "origin": {
+        "xyz": "-0.019225 -0.000523 0.100684",
+        "rpy": "0 0 0"
+      },
+      "axis": "0.0 -0.0 -1.0",
+      "limits": {
+        "lower": "-3.14",
+        "upper": "3.14",
+        "effort": "150",
+        "velocity": "3.15"
+      }
+    },
+    {
+      "name": "Joint2",
+      "type": "revolute",
+      "parent": "link1_1_1",
+      "child": "link2_1_1",
+      "origin": {
+        "xyz": "-0.0155 0.035 0.0285",
+        "rpy": "0 0 0"
+      },
+      "axis": "-1.0 -0.0 0.0",
+      "limits": {
+        "lower": "-3.14",
+        "upper": "3.14",
+        "effort": "150",
+        "velocity": "3.15"
+      }
+    },
+    {
+      "name": "Joint3",
+      "type": "revolute",
+      "parent": "link2_1_1",
+      "child": "link3_1_1",
+      "origin": {
+        "xyz": "0.03665 0.0 0.146",
+        "rpy": "0 0 0"
+      },
+      "axis": "-1.0 0.0 -0.0",
+      "limits": {
+        "lower": "-3.14",
+        "upper": "3.14",
+        "effort": "150",
+        "velocity": "3.15"
+      }
+    },
+    {
+      "name": "Joint4",
+      "type": "revolute",
+      "parent": "link3_1_1",
+      "child": "link4_1_1",
+      "origin": {
+        "xyz": "-0.01855 -0.01 0.052",
+        "rpy": "0 0 0"
+      },
+      "axis": "0.0 -1.0 0.0",
+      "limits": {
+        "lower": "-3.14",
+        "upper": "3.14",
+        "effort": "150",
+        "velocity": "3.15"
+      }
+    },
+    {
+      "name": "Joint5",
+      "type": "revolute",
+      "parent": "link4_1_1",
+      "child": "link5_1_1",
+      "origin": {
+        "xyz": "0.0168 0.127 0.0",
+        "rpy": "0 0 0"
+      },
+      "axis": "-1.0 0.0 -0.0",
+      "limits": {
+        "lower": "-3.14",
+        "upper": "3.14",
+        "effort": "150",
+        "velocity": "3.15"
+      }
+    },
+    {
+      "name": "Joint6",
+      "type": "revolute",
+      "parent": "link5_1_1",
+      "child": "link6_1_1",
+      "origin": {
+        "xyz": "-0.018506 0.077 -0.000106",
+        "rpy": "0 0 0"
+      },
+      "axis": "-0.0 -1.0 0.0",
+      "limits": {
+        "lower": "-3.14",
+        "upper": "3.14",
+        "effort": "150",
+        "velocity": "3.15"
+      }
+    }
+  ],
+  "group": "dummy_arm",
+  "group_variables": [
+    "Joint1",
+    "Joint2",
+    "Joint3",
+    "Joint4",
+    "Joint5",
+    "Joint6"
+  ],
+  "chain": {
+    "base_link": "base_link",
+    "tip_link": "link6_1_1"
+  },
+  "end_effector_elements": 0,
+  "disabled_collisions": [
+    {
+      "link1": "base_link",
+      "link2": "link1_1_1",
+      "reason": "Adjacent"
+    },
+    {
+      "link1": "link1_1_1",
+      "link2": "link2_1_1",
+      "reason": "Adjacent"
+    },
+    {
+      "link1": "link2_1_1",
+      "link2": "link3_1_1",
+      "reason": "Adjacent"
+    },
+    {
+      "link1": "link3_1_1",
+      "link2": "link4_1_1",
+      "reason": "Adjacent"
+    },
+    {
+      "link1": "link3_1_1",
+      "link2": "link5_1_1",
+      "reason": "Never"
+    },
+    {
+      "link1": "link3_1_1",
+      "link2": "link6_1_1",
+      "reason": "Never"
+    },
+    {
+      "link1": "link4_1_1",
+      "link2": "link5_1_1",
+      "reason": "Adjacent"
+    },
+    {
+      "link1": "link5_1_1",
+      "link2": "link6_1_1",
+      "reason": "Adjacent"
+    }
+  ],
+  "meshes": [
+    {
+      "link": "base_link",
+      "kind": "visual",
+      "file": "base_link.stl",
+      "triangles": 18258,
+      "raw_bounds": [
+        [
+          -69.22496032714844,
+          30.77503776550293
+        ],
+        [
+          -60.52252197265625,
+          49.47747802734375
+        ],
+        [
+          4.683535099029541,
+          103.68353271484375
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "55ece6abb6ecc37f56868df5327991d2676e20f178862f7a9ed3fb6a9669b275"
+    },
+    {
+      "link": "base_link",
+      "kind": "collision",
+      "file": "base_link.stl",
+      "triangles": 18258,
+      "raw_bounds": [
+        [
+          -69.22496032714844,
+          30.77503776550293
+        ],
+        [
+          -60.52252197265625,
+          49.47747802734375
+        ],
+        [
+          4.683535099029541,
+          103.68353271484375
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "55ece6abb6ecc37f56868df5327991d2676e20f178862f7a9ed3fb6a9669b275"
+    },
+    {
+      "link": "link1_1_1",
+      "kind": "visual",
+      "file": "link1_1_1.stl",
+      "triangles": 7106,
+      "raw_bounds": [
+        [
+          -49.7249641418457,
+          13.175036430358887
+        ],
+        [
+          -31.02252197265625,
+          47.97747802734375
+        ],
+        [
+          94.18353271484375,
+          142.68270874023438
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "30cd28b038c726f873aa75903fbca368d95e24bfe1779bf303b3fb36f0a6983f"
+    },
+    {
+      "link": "link1_1_1",
+      "kind": "collision",
+      "file": "link1_1_1.stl",
+      "triangles": 7106,
+      "raw_bounds": [
+        [
+          -49.7249641418457,
+          13.175036430358887
+        ],
+        [
+          -31.02252197265625,
+          47.97747802734375
+        ],
+        [
+          94.18353271484375,
+          142.68270874023438
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "30cd28b038c726f873aa75903fbca368d95e24bfe1779bf303b3fb36f0a6983f"
+    },
+    {
+      "link": "link2_1_1",
+      "kind": "visual",
+      "file": "link2_1_1.stl",
+      "triangles": 7832,
+      "raw_bounds": [
+        [
+          -41.0749626159668,
+          14.775036811828613
+        ],
+        [
+          10.479450225830078,
+          61.47747802734375
+        ],
+        [
+          105.18898010253906,
+          299.18353271484375
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "a47ea8c78d80b79874e0cea2a69ad0bd285af239a0d5b7a1d16b9b60f81e419d"
+    },
+    {
+      "link": "link2_1_1",
+      "kind": "collision",
+      "file": "link2_1_1.stl",
+      "triangles": 7832,
+      "raw_bounds": [
+        [
+          -41.0749626159668,
+          14.775036811828613
+        ],
+        [
+          10.479450225830078,
+          61.47747802734375
+        ],
+        [
+          105.18898010253906,
+          299.18353271484375
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "a47ea8c78d80b79874e0cea2a69ad0bd285af239a0d5b7a1d16b9b60f81e419d"
+    },
+    {
+      "link": "link3_1_1",
+      "kind": "visual",
+      "file": "link3_1_1.stl",
+      "triangles": 7666,
+      "raw_bounds": [
+        [
+          -35.624961853027344,
+          15.525036811828613
+        ],
+        [
+          -5.52252197265625,
+          45.972145080566406
+        ],
+        [
+          263.68353271484375,
+          381.383544921875
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "ecec6ece159b9c41409f20792937773266b1c9d240576bf4a31c3cee32b5b3d6"
+    },
+    {
+      "link": "link3_1_1",
+      "kind": "collision",
+      "file": "link3_1_1.stl",
+      "triangles": 7666,
+      "raw_bounds": [
+        [
+          -35.624961853027344,
+          15.525036811828613
+        ],
+        [
+          -5.52252197265625,
+          45.972145080566406
+        ],
+        [
+          263.68353271484375,
+          381.383544921875
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "ecec6ece159b9c41409f20792937773266b1c9d240576bf4a31c3cee32b5b3d6"
+    },
+    {
+      "link": "link4_1_1",
+      "kind": "visual",
+      "file": "link4_1_1.stl",
+      "triangles": 6586,
+      "raw_bounds": [
+        [
+          -38.8249626159668,
+          0.17503750324249268
+        ],
+        [
+          24.47747802734375,
+          175.47747802734375
+        ],
+        [
+          303.1835021972656,
+          351.1835021972656
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "35c318fffd8f09e5585024dc2df2ffcdb0b06e7181254eabb14173596681e012"
+    },
+    {
+      "link": "link4_1_1",
+      "kind": "collision",
+      "file": "link4_1_1.stl",
+      "triangles": 6586,
+      "raw_bounds": [
+        [
+          -38.8249626159668,
+          0.17503750324249268
+        ],
+        [
+          24.47747802734375,
+          175.47747802734375
+        ],
+        [
+          303.1835021972656,
+          351.1835021972656
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "35c318fffd8f09e5585024dc2df2ffcdb0b06e7181254eabb14173596681e012"
+    },
+    {
+      "link": "link5_1_1",
+      "kind": "visual",
+      "file": "link5_1_1.stl",
+      "triangles": 4752,
+      "raw_bounds": [
+        [
+          -38.624961853027344,
+          9.37503719329834
+        ],
+        [
+          134.48500061035156,
+          228.47747802734375
+        ],
+        [
+          309.1835021972656,
+          345.1835021972656
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "a5a7257d58e3850a0e115f972496e1c8068550725da01f79bea56e6c8cc44bf1"
+    },
+    {
+      "link": "link5_1_1",
+      "kind": "collision",
+      "file": "link5_1_1.stl",
+      "triangles": 4752,
+      "raw_bounds": [
+        [
+          -38.624961853027344,
+          9.37503719329834
+        ],
+        [
+          134.48500061035156,
+          228.47747802734375
+        ],
+        [
+          309.1835021972656,
+          345.1835021972656
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "a5a7257d58e3850a0e115f972496e1c8068550725da01f79bea56e6c8cc44bf1"
+    },
+    {
+      "link": "link6_1_1",
+      "kind": "visual",
+      "file": "link6_1_1.stl",
+      "triangles": 908,
+      "raw_bounds": [
+        [
+          -29.8302001953125,
+          -6.832944393157959
+        ],
+        [
+          228.47747802734375,
+          231.47747802734375
+        ],
+        [
+          315.578369140625,
+          338.5743713378906
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "5554538d053939e45d1ad6f8b321ce72d0d181fe55b269ba99d93368acdbaa6f"
+    },
+    {
+      "link": "link6_1_1",
+      "kind": "collision",
+      "file": "link6_1_1.stl",
+      "triangles": 908,
+      "raw_bounds": [
+        [
+          -29.8302001953125,
+          -6.832944393157959
+        ],
+        [
+          228.47747802734375,
+          231.47747802734375
+        ],
+        [
+          315.578369140625,
+          338.5743713378906
+        ]
+      ],
+      "scale": "0.001 0.001 0.001",
+      "sha256": "5554538d053939e45d1ad6f8b321ce72d0d181fe55b269ba99d93368acdbaa6f"
+    }
+  ],
+  "xacro_expansion": "PASS with temporary package-path substitution",
+  "limitations": [
+    "No ament discovery or Jazzy build tested",
+    "No RViz or MoveIt runtime tested",
+    "No geometric self-collision validation",
+    "STL checks validate binary structure, not watertightness",
+    "No physical robot limits or mechanical variant equivalence verified"
+  ]
+}

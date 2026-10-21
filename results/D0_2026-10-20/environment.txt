@@ -1,0 +1,11 @@
+Recorded 2026-10-21
+Windows-11-10.0.26200-SP0
+3.14.2
+ros2=None
+rviz2=None
+docker=None
+wsl=C:\WINDOWS\system32\wsl.EXE
+git=C:\Users\12503\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd\git.EXE
+wsl exit=1
+未安装适用于 Linux 的 Windows 子系统。可通过运行 “wsl.exe --install” 进行安装。
+有关详细信息，请访问 https://aka.ms/wslinstall

@@ -1,0 +1,459 @@
+{
+  "recorded_on": "2026-10-21",
+  "upstream": "https://gitee.com/switchpi/dummy.git",
+  "branch": "auk",
+  "commit": "3a9d17464308e1532b3d648a80da6db899cc1f01",
+  "license_sha256": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+  "files": [
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/config/display.rviz",
+      "destination": "src/dummy-ros2_description/config/display.rviz",
+      "source_sha256": "121d2088358e2afb5a0659168cef0b1c1adbc78a20b748c5f5a5380e240961ff",
+      "destination_sha256": "121d2088358e2afb5a0659168cef0b1c1adbc78a20b748c5f5a5380e240961ff",
+      "source_bytes": 7593,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.665898+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/dummy-ros2_description/__init__.py",
+      "destination": "src/dummy-ros2_description/dummy-ros2_description/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "destination_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.665898+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/launch/display.launch.py",
+      "destination": "src/dummy-ros2_description/launch/display.launch.py",
+      "source_sha256": "d9fe13ee7e6a0272643191cfff2f429b2d934fc2c703ab5eb0fd78138871d4dc",
+      "destination_sha256": "d9fe13ee7e6a0272643191cfff2f429b2d934fc2c703ab5eb0fd78138871d4dc",
+      "source_bytes": 1930,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.666898+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/launch/gazebo.launch.py",
+      "destination": "src/dummy-ros2_description/launch/gazebo.launch.py",
+      "source_sha256": "be4957ecf7b8fd3e8c98938466d2adad3fde2fbb71a1a09735cdae52ab794759",
+      "destination_sha256": "be4957ecf7b8fd3e8c98938466d2adad3fde2fbb71a1a09735cdae52ab794759",
+      "source_bytes": 2199,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.666898+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/meshes/base_link.stl",
+      "destination": "src/dummy-ros2_description/meshes/base_link.stl",
+      "source_sha256": "55ece6abb6ecc37f56868df5327991d2676e20f178862f7a9ed3fb6a9669b275",
+      "destination_sha256": "55ece6abb6ecc37f56868df5327991d2676e20f178862f7a9ed3fb6a9669b275",
+      "source_bytes": 912984,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.670906+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/meshes/link1_1_1.stl",
+      "destination": "src/dummy-ros2_description/meshes/link1_1_1.stl",
+      "source_sha256": "30cd28b038c726f873aa75903fbca368d95e24bfe1779bf303b3fb36f0a6983f",
+      "destination_sha256": "30cd28b038c726f873aa75903fbca368d95e24bfe1779bf303b3fb36f0a6983f",
+      "source_bytes": 355384,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.671898+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/meshes/link2_1_1.stl",
+      "destination": "src/dummy-ros2_description/meshes/link2_1_1.stl",
+      "source_sha256": "a47ea8c78d80b79874e0cea2a69ad0bd285af239a0d5b7a1d16b9b60f81e419d",
+      "destination_sha256": "a47ea8c78d80b79874e0cea2a69ad0bd285af239a0d5b7a1d16b9b60f81e419d",
+      "source_bytes": 391684,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.673906+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/meshes/link3_1_1.stl",
+      "destination": "src/dummy-ros2_description/meshes/link3_1_1.stl",
+      "source_sha256": "ecec6ece159b9c41409f20792937773266b1c9d240576bf4a31c3cee32b5b3d6",
+      "destination_sha256": "ecec6ece159b9c41409f20792937773266b1c9d240576bf4a31c3cee32b5b3d6",
+      "source_bytes": 383384,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.675898+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/meshes/link4_1_1.stl",
+      "destination": "src/dummy-ros2_description/meshes/link4_1_1.stl",
+      "source_sha256": "35c318fffd8f09e5585024dc2df2ffcdb0b06e7181254eabb14173596681e012",
+      "destination_sha256": "35c318fffd8f09e5585024dc2df2ffcdb0b06e7181254eabb14173596681e012",
+      "source_bytes": 329384,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.676898+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/meshes/link5_1_1.stl",
+      "destination": "src/dummy-ros2_description/meshes/link5_1_1.stl",
+      "source_sha256": "a5a7257d58e3850a0e115f972496e1c8068550725da01f79bea56e6c8cc44bf1",
+      "destination_sha256": "a5a7257d58e3850a0e115f972496e1c8068550725da01f79bea56e6c8cc44bf1",
+      "source_bytes": 237684,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.678225+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/meshes/link6_1_1.stl",
+      "destination": "src/dummy-ros2_description/meshes/link6_1_1.stl",
+      "source_sha256": "5554538d053939e45d1ad6f8b321ce72d0d181fe55b269ba99d93368acdbaa6f",
+      "destination_sha256": "5554538d053939e45d1ad6f8b321ce72d0d181fe55b269ba99d93368acdbaa6f",
+      "source_bytes": 45484,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.678225+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/package.xml",
+      "destination": "src/dummy-ros2_description/package.xml",
+      "source_sha256": "2b82c5e90bade89415f7f31f433b3509b31ac2b364037316b876c3ffe8c43ab1",
+      "destination_sha256": "2b82c5e90bade89415f7f31f433b3509b31ac2b364037316b876c3ffe8c43ab1",
+      "source_bytes": 855,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.679727+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/resource/dummy-ros2_description",
+      "destination": "src/dummy-ros2_description/resource/dummy-ros2_description",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "destination_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.679727+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/setup.cfg",
+      "destination": "src/dummy-ros2_description/setup.cfg",
+      "source_sha256": "01f258b7e05bd01eecc8d52b1ff2afbf43c3515e4cd58717ab8011b3e099ec17",
+      "destination_sha256": "01f258b7e05bd01eecc8d52b1ff2afbf43c3515e4cd58717ab8011b3e099ec17",
+      "source_bytes": 117,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.679727+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/setup.py",
+      "destination": "src/dummy-ros2_description/setup.py",
+      "source_sha256": "fe25162cd00679bb6f2e2a035f562bcb8b85572ade5db32ba49145f5c857502e",
+      "destination_sha256": "fe25162cd00679bb6f2e2a035f562bcb8b85572ade5db32ba49145f5c857502e",
+      "source_bytes": 1002,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.679727+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/test/test_copyright.py",
+      "destination": "src/dummy-ros2_description/test/test_copyright.py",
+      "source_sha256": "3ef873442a9e59ffb8f8d2a0acd1b3a0394145d0b44a9214488c051670b618f4",
+      "destination_sha256": "3ef873442a9e59ffb8f8d2a0acd1b3a0394145d0b44a9214488c051670b618f4",
+      "source_bytes": 813,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.679727+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/test/test_flake8.py",
+      "destination": "src/dummy-ros2_description/test/test_flake8.py",
+      "source_sha256": "0d9705658b073e95c71dc4173f1cbe4633250dc7bd83527dd1e5c26e899c0e6b",
+      "destination_sha256": "0d9705658b073e95c71dc4173f1cbe4633250dc7bd83527dd1e5c26e899c0e6b",
+      "source_bytes": 909,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.679727+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/test/test_pep257.py",
+      "destination": "src/dummy-ros2_description/test/test_pep257.py",
+      "source_sha256": "2c2a8f9ac19efb12c18d02272706533bdaa47512d5b349143272ddfe3fed904b",
+      "destination_sha256": "2c2a8f9ac19efb12c18d02272706533bdaa47512d5b349143272ddfe3fed904b",
+      "source_bytes": 826,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.681234+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/urdf/dummy-ros2.gazebo",
+      "destination": "src/dummy-ros2_description/urdf/dummy-ros2.gazebo",
+      "source_sha256": "3e684a19150cff31ee932165722d0a5c8c6e4537953cea06d99db8454ec85e79",
+      "destination_sha256": "3e684a19150cff31ee932165722d0a5c8c6e4537953cea06d99db8454ec85e79",
+      "source_bytes": 1374,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.681234+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/urdf/dummy-ros2.trans",
+      "destination": "src/dummy-ros2_description/urdf/dummy-ros2.trans",
+      "source_sha256": "e12ef297648a3827eca7310f60fd7d5e6424fe49f7ca7b986a18d3880203e068",
+      "destination_sha256": "e12ef297648a3827eca7310f60fd7d5e6424fe49f7ca7b986a18d3880203e068",
+      "source_bytes": 2598,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.681739+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/urdf/dummy-ros2.xacro",
+      "destination": "src/dummy-ros2_description/urdf/dummy-ros2.xacro",
+      "source_sha256": "5c617dd50509b383d6a1cce078d735992d997762e3aa56ce233817356a8d2fea",
+      "destination_sha256": "5c617dd50509b383d6a1cce078d735992d997762e3aa56ce233817356a8d2fea",
+      "source_bytes": 7808,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.681739+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy-ros2_description/urdf/materials.xacro",
+      "destination": "src/dummy-ros2_description/urdf/materials.xacro",
+      "source_sha256": "c46acb4dc44e804960abf7210d73121e6f7a2450d3b401b51b817bd5f56197a0",
+      "destination_sha256": "c46acb4dc44e804960abf7210d73121e6f7a2450d3b401b51b817bd5f56197a0",
+      "source_bytes": 192,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.681739+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/.setup_assistant",
+      "destination": "src/dummy_moveit_config/.setup_assistant",
+      "source_sha256": "a4f682ccd4415ce63d714152f175db84a3c9d00778844dc6cf8167a00e45ea01",
+      "destination_sha256": "a4f682ccd4415ce63d714152f175db84a3c9d00778844dc6cf8167a00e45ea01",
+      "source_bytes": 547,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.682741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/CMakeLists.txt",
+      "destination": "src/dummy_moveit_config/CMakeLists.txt",
+      "source_sha256": "0ba8ee22173480d0c48649855e9b79e297689dd861e8f088e23bfe3365147cb4",
+      "destination_sha256": "533ed7ad329b75a772b0b09df69cc46edc8c949e5853babc0b67f95ca02b4f8a",
+      "source_bytes": 1137,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.682741+00:00",
+      "modified": true
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/config/dummy-ros2.ros2_control.xacro",
+      "destination": "src/dummy_moveit_config/config/dummy-ros2.ros2_control.xacro",
+      "source_sha256": "640a8c9e7b471d24b6436b7e4519dd14936e7b03b3368b15191c02c1fae35c9a",
+      "destination_sha256": "1a31aed2329b8712ea8426e30b32c2104e34ba013f5d9b371dfb86a3a3c1f7b0",
+      "source_bytes": 2628,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.682741+00:00",
+      "modified": true
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/config/dummy-ros2.srdf",
+      "destination": "src/dummy_moveit_config/config/dummy-ros2.srdf",
+      "source_sha256": "6b143c9bb0f13c908e73c20f51ab712218e5fb381be422d9201c96d2e5b656ef",
+      "destination_sha256": "c5662d9107578308213db1927a4df67beacb2784bd4349bb1e3d19755fbfb7a8",
+      "source_bytes": 3213,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.682741+00:00",
+      "modified": true
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/config/dummy-ros2.urdf.xacro",
+      "destination": "src/dummy_moveit_config/config/dummy-ros2.urdf.xacro",
+      "source_sha256": "267459d7a52ba4bcba5250ced99ae687e846d984524897913cfdfaa147256398",
+      "destination_sha256": "01e82fb85d606df871b071c6409edd5073b4b628400f768a6175c535f4e09638",
+      "source_bytes": 535,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.683741+00:00",
+      "modified": true
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/config/dummy_simulated_config.yaml",
+      "destination": "src/dummy_moveit_config/config/dummy_simulated_config.yaml",
+      "source_sha256": "25515f79fd731db2b8e4699834020a40579decee69371fa64a9a3d1e6773cc38",
+      "destination_sha256": "25515f79fd731db2b8e4699834020a40579decee69371fa64a9a3d1e6773cc38",
+      "source_bytes": 4317,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.683741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/config/initial_positions.yaml",
+      "destination": "src/dummy_moveit_config/config/initial_positions.yaml",
+      "source_sha256": "40f3c192eae1a74cf59a921f446c72ab17ee3f5d60acb1fdf7d551a84e2c5169",
+      "destination_sha256": "40f3c192eae1a74cf59a921f446c72ab17ee3f5d60acb1fdf7d551a84e2c5169",
+      "source_bytes": 169,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.683741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/config/joint_limits.yaml",
+      "destination": "src/dummy_moveit_config/config/joint_limits.yaml",
+      "source_sha256": "47c7c21e07d3336e428101690161fd16e83a4748b6af6d73f19b6280cadf72be",
+      "destination_sha256": "47c7c21e07d3336e428101690161fd16e83a4748b6af6d73f19b6280cadf72be",
+      "source_bytes": 1480,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.683741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/config/kinematics.yaml",
+      "destination": "src/dummy_moveit_config/config/kinematics.yaml",
+      "source_sha256": "e4920584cb5e4fa69998f38d8a2d9ce871175ad8e44620222c1c13ce68204195",
+      "destination_sha256": "e4920584cb5e4fa69998f38d8a2d9ce871175ad8e44620222c1c13ce68204195",
+      "source_bytes": 170,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.683741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/config/moveit.rviz",
+      "destination": "src/dummy_moveit_config/config/moveit.rviz",
+      "source_sha256": "a7fbb189f9777596a4aa78f61201b698c1641612a6793ee1d4e5299981f3188a",
+      "destination_sha256": "a7fbb189f9777596a4aa78f61201b698c1641612a6793ee1d4e5299981f3188a",
+      "source_bytes": 1957,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.684741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/config/moveit_controllers.yaml",
+      "destination": "src/dummy_moveit_config/config/moveit_controllers.yaml",
+      "source_sha256": "54704fa9b4a9072294bbcde9bc2d1b2838bf21ce3feed1a5912a89dfd515dc0e",
+      "destination_sha256": "54704fa9b4a9072294bbcde9bc2d1b2838bf21ce3feed1a5912a89dfd515dc0e",
+      "source_bytes": 465,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.684741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/config/moveit_empty.rviz",
+      "destination": "src/dummy_moveit_config/config/moveit_empty.rviz",
+      "source_sha256": "662480ca239302539a21558a0cc9b96cf3550947945f3a861207910fbdd250bd",
+      "destination_sha256": "662480ca239302539a21558a0cc9b96cf3550947945f3a861207910fbdd250bd",
+      "source_bytes": 3710,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.684741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/config/pilz_cartesian_limits.yaml",
+      "destination": "src/dummy_moveit_config/config/pilz_cartesian_limits.yaml",
+      "source_sha256": "8b9dc055f0845f8b2313bd2b6d867328645bcad02132ce51081606de5d3dab9c",
+      "destination_sha256": "8b9dc055f0845f8b2313bd2b6d867328645bcad02132ce51081606de5d3dab9c",
+      "source_bytes": 139,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.684741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/config/ros2_controllers.yaml",
+      "destination": "src/dummy_moveit_config/config/ros2_controllers.yaml",
+      "source_sha256": "880de227ac2f95ddb7653188eff694303babeec197bf8d6d73466e8534b2cb13",
+      "destination_sha256": "880de227ac2f95ddb7653188eff694303babeec197bf8d6d73466e8534b2cb13",
+      "source_bytes": 556,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.684741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/launch/demo.launch.py",
+      "destination": "src/dummy_moveit_config/launch/demo.launch.py",
+      "source_sha256": "0171e225e0c5ba63067699c5d04aebd822080e3ddfbddeb7a87250ccd854f137",
+      "destination_sha256": "0171e225e0c5ba63067699c5d04aebd822080e3ddfbddeb7a87250ccd854f137",
+      "source_bytes": 319,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.685741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/launch/move_group.launch.py",
+      "destination": "src/dummy_moveit_config/launch/move_group.launch.py",
+      "source_sha256": "09d337972502270597f4a520e728aef648db663a8c694bb8e43756e3bee03c1d",
+      "destination_sha256": "09d337972502270597f4a520e728aef648db663a8c694bb8e43756e3bee03c1d",
+      "source_bytes": 331,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.685741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/launch/moveit_rviz.launch.py",
+      "destination": "src/dummy_moveit_config/launch/moveit_rviz.launch.py",
+      "source_sha256": "51c1464c840a3202639ccba981da72a833c262741c1485bd97d1ecb6031ddc85",
+      "destination_sha256": "51c1464c840a3202639ccba981da72a833c262741c1485bd97d1ecb6031ddc85",
+      "source_bytes": 333,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.685741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/launch/rsp.launch.py",
+      "destination": "src/dummy_moveit_config/launch/rsp.launch.py",
+      "source_sha256": "fbd2dabd70ae210e0ee9a47d52f065d36f1edc834ae38562f26733ca8acf491a",
+      "destination_sha256": "fbd2dabd70ae210e0ee9a47d52f065d36f1edc834ae38562f26733ca8acf491a",
+      "source_bytes": 317,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.685741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/launch/servo_cpp_interface_demo.launch.py",
+      "destination": "src/dummy_moveit_config/launch/servo_cpp_interface_demo.launch.py",
+      "source_sha256": "38be7ec269c9ec5940b43b34636184eb5683531f92fc7ce20d97a913dd0b0f54",
+      "destination_sha256": "38be7ec269c9ec5940b43b34636184eb5683531f92fc7ce20d97a913dd0b0f54",
+      "source_bytes": 3756,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.685741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/launch/setup_assistant.launch.py",
+      "destination": "src/dummy_moveit_config/launch/setup_assistant.launch.py",
+      "source_sha256": "6c019f3466325e509195e45d00120a6f2ecc49168a3895e44a84f7c62709aadb",
+      "destination_sha256": "6c019f3466325e509195e45d00120a6f2ecc49168a3895e44a84f7c62709aadb",
+      "source_bytes": 341,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.686741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/launch/spawn_controllers.launch.py",
+      "destination": "src/dummy_moveit_config/launch/spawn_controllers.launch.py",
+      "source_sha256": "7a49f61f1d54084325c7bc9089b3e6fe0ec2c48a3d2ede86caec3357b0915604",
+      "destination_sha256": "7a49f61f1d54084325c7bc9089b3e6fe0ec2c48a3d2ede86caec3357b0915604",
+      "source_bytes": 345,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.686741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/launch/static_virtual_joint_tfs.launch.py",
+      "destination": "src/dummy_moveit_config/launch/static_virtual_joint_tfs.launch.py",
+      "source_sha256": "a09f6b56f4a528642707c4bd32aa922e72fcf333a0fde0f72a592cc80ce1a272",
+      "destination_sha256": "a09f6b56f4a528642707c4bd32aa922e72fcf333a0fde0f72a592cc80ce1a272",
+      "source_bytes": 359,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.686741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/launch/warehouse_db.launch.py",
+      "destination": "src/dummy_moveit_config/launch/warehouse_db.launch.py",
+      "source_sha256": "2757476f3e37a2a820fbcc29e269d961403826f30f46147a7b7b24e612c981d2",
+      "destination_sha256": "2757476f3e37a2a820fbcc29e269d961403826f30f46147a7b7b24e612c981d2",
+      "source_bytes": 335,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.686741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/package.xml",
+      "destination": "src/dummy_moveit_config/package.xml",
+      "source_sha256": "5cda9c8150106525d53bd822bed710ddef2add46a08ce0d65d701765e7f339a1",
+      "destination_sha256": "abd595a80e3e0e90818c0a95dc1608289807b02e241a4e78b70b84909063923a",
+      "source_bytes": 2441,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.686741+00:00",
+      "modified": true
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/src/servo_cpp_interface_demo.cpp",
+      "destination": "src/dummy_moveit_config/src/servo_cpp_interface_demo.cpp",
+      "source_sha256": "8faa8a60e96868e34d7422b871fce1509edeb6c25191f0dbbe56c6219c5a6272",
+      "destination_sha256": "8faa8a60e96868e34d7422b871fce1509edeb6c25191f0dbbe56c6219c5a6272",
+      "source_bytes": 9080,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.687741+00:00",
+      "modified": false
+    },
+    {
+      "source": "ros2/dummy_ws/src/dummy_moveit_config/src/servo_keyboard_input.cpp",
+      "destination": "src/dummy_moveit_config/src/servo_keyboard_input.cpp",
+      "source_sha256": "e6b5d8575f963ca496eaf465ef5fcd2fc5c92aca178bb02476b325553a7f041b",
+      "destination_sha256": "e6b5d8575f963ca496eaf465ef5fcd2fc5c92aca178bb02476b325553a7f041b",
+      "source_bytes": 9674,
+      "source_checkout_mtime_utc": "2026-10-20T11:35:11.687741+00:00",
+      "modified": false
+    }
+  ],
+  "added_source_files": [
+    {
+      "path": "src/dummy_moveit_config/config/d0_model.rviz",
+      "sha256": "72511c3fffefc4b87188c0bdec75a456869e64e928fca7e120a5bb87364fe1c3"
+    },
+    {
+      "path": "src/dummy_moveit_config/launch/d0_check.launch.py",
+      "sha256": "e08b0986c09d42f72dc4d55cf68c8e475de3a7d713093e134babf77e9248de8c"
+    },
+    {
+      "path": "src/dummy_moveit_config/launch/d0_model.launch.py",
+      "sha256": "47d00f3a7b3d68c4c5062800b9703b83c0d8733d30446f513747306a9d09d2f0"
+    },
+    {
+      "path": "src/dummy_moveit_config/src/d0_model_check.cpp",
+      "sha256": "4fb00f1ada1a943cdf0f7fd77d8d664faa7d4fd3fbe92b8ba45d38565b3c8d9e"
+    }
+  ]
+}

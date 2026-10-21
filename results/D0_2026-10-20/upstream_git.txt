@@ -1,0 +1,65 @@
+Recorded 2026-10-21 from checkout fetched 2026-10-20
+$ git rev-parse HEAD
+3a9d17464308e1532b3d648a80da6db899cc1f01
+
+exit=0
+$ git status --short --untracked-files=no
+
+exit=0
+$ git log -1 --format=%H%n%aI%n%s
+3a9d17464308e1532b3d648a80da6db899cc1f01
+2026-05-19T08:35:59+08:00
+move bbs open source files to here
+
+exit=0
+$ git ls-tree -r HEAD ros2/dummy_ws/src
+100644 blob e7136f0547d3d6212283419b23c2903d5f387914	ros2/dummy_ws/src/dummy-ros2_description/config/display.rviz
+100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391	ros2/dummy_ws/src/dummy-ros2_description/dummy-ros2_description/__init__.py
+100644 blob c96992dc3670d48469aa4b9706dc44dbec4d89c4	ros2/dummy_ws/src/dummy-ros2_description/launch/display.launch.py
+100644 blob 3a322df54da7f1fa0d9ac93153bc33e1ed881556	ros2/dummy_ws/src/dummy-ros2_description/launch/gazebo.launch.py
+100644 blob 2b4f878f7b14584594a24badc1bfbf9e353a84e4	ros2/dummy_ws/src/dummy-ros2_description/meshes/base_link.stl
+100644 blob 82e0af768318723a380ed4cb48c120dbd797e0dc	ros2/dummy_ws/src/dummy-ros2_description/meshes/link1_1_1.stl
+100644 blob 70cc730742fd9f1b69b36da776a76599d9900ed4	ros2/dummy_ws/src/dummy-ros2_description/meshes/link2_1_1.stl
+100644 blob 697647f8f6f2e466dec2b01781a29544176a2e35	ros2/dummy_ws/src/dummy-ros2_description/meshes/link3_1_1.stl
+100644 blob 9f4c31b2f7aa9c6d97d402adef84cc83a0a5a5f5	ros2/dummy_ws/src/dummy-ros2_description/meshes/link4_1_1.stl
+100644 blob bfd50f9b38a01d99730a4458a186d190adb7a7b8	ros2/dummy_ws/src/dummy-ros2_description/meshes/link5_1_1.stl
+100644 blob 607d66fe34b217090f7b421ccf462a133c1a4592	ros2/dummy_ws/src/dummy-ros2_description/meshes/link6_1_1.stl
+100644 blob 0cfb59246f2d6f5a116b186b46f56cf989467a34	ros2/dummy_ws/src/dummy-ros2_description/package.xml
+100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391	ros2/dummy_ws/src/dummy-ros2_description/resource/dummy-ros2_description
+100644 blob 00c495bc7583766ee05460ce20711dea99fcbb8d	ros2/dummy_ws/src/dummy-ros2_description/setup.cfg
+100644 blob 0e2f85246e6b96830f186698f6b63e7194cd2034	ros2/dummy_ws/src/dummy-ros2_description/setup.py
+100644 blob cc8ff03f79abb8eb061827a24f2a331e052c5c37	ros2/dummy_ws/src/dummy-ros2_description/test/test_copyright.py
+100644 blob 27ee1078ff077cc3a0fec75b7d023101a68164d1	ros2/dummy_ws/src/dummy-ros2_description/test/test_flake8.py
+100644 blob b234a3840f4c5bd38f043638c8622b8f240e1185	ros2/dummy_ws/src/dummy-ros2_description/test/test_pep257.py
+100644 blob ab825a3f63d53fda4eb28d0742d70c8a43afa0c6	ros2/dummy_ws/src/dummy-ros2_description/urdf/dummy-ros2.gazebo
+100644 blob acf47f3954b6e900f25f2146417ae723a2cf1b68	ros2/dummy_ws/src/dummy-ros2_description/urdf/dummy-ros2.trans
+100644 blob cc67c11a81b7abf484ab0d67b16603aa28a3f104	ros2/dummy_ws/src/dummy-ros2_description/urdf/dummy-ros2.xacro
+100644 blob 7e2914e6e357b5a7e66d0963885f8575d65e3c07	ros2/dummy_ws/src/dummy-ros2_description/urdf/materials.xacro
+100644 blob 2e54d1e654e96d602fac3438f56f2cc441930467	ros2/dummy_ws/src/dummy_moveit_config/.setup_assistant
+100644 blob 0c4ad4c955b640e25b7ac351f9322f32c6b80a2e	ros2/dummy_ws/src/dummy_moveit_config/CMakeLists.txt
+100644 blob f1a714b3d67976e46d62096a27444141994f49df	ros2/dummy_ws/src/dummy_moveit_config/config/dummy-ros2.ros2_control.xacro
+100644 blob 2a47f8b9a7ea36b28b10d92c1f82965a21132363	ros2/dummy_ws/src/dummy_moveit_config/config/dummy-ros2.srdf
+100644 blob 2660405e8e4d3b09c3d3984e2e205fcc6da04d00	ros2/dummy_ws/src/dummy_moveit_config/config/dummy-ros2.urdf.xacro
+100644 blob e426b2d1eb2851e3ba6f93c276071f026b50b171	ros2/dummy_ws/src/dummy_moveit_config/config/dummy_simulated_config.yaml
+100644 blob 8651d5ff62729395a33ec3ddabf0128f4dcc0709	ros2/dummy_ws/src/dummy_moveit_config/config/initial_positions.yaml
+100644 blob 054a2f07c4ffafbfa14e401b7c13e13de95dcdcc	ros2/dummy_ws/src/dummy_moveit_config/config/joint_limits.yaml
+100644 blob 27503101e346b9fe716b69c6b0592d86415afd10	ros2/dummy_ws/src/dummy_moveit_config/config/kinematics.yaml
+100644 blob f31651ed33f5160806d13a0345947c58b459bc65	ros2/dummy_ws/src/dummy_moveit_config/config/moveit.rviz
+100644 blob f5fee01ba1e8e3b1e54ede07358f414966c34b26	ros2/dummy_ws/src/dummy_moveit_config/config/moveit_controllers.yaml
+100644 blob f378cfbe0a6d3b265e8304de66ede6e37d0d72d0	ros2/dummy_ws/src/dummy_moveit_config/config/moveit_empty.rviz
+100644 blob b2997caf4d9fc28c5d0dd1cb94e361afd37e3aab	ros2/dummy_ws/src/dummy_moveit_config/config/pilz_cartesian_limits.yaml
+100644 blob b2a2d6ee44bf723007d7cc38b8018dbae21eb0e2	ros2/dummy_ws/src/dummy_moveit_config/config/ros2_controllers.yaml
+100644 blob 8216ac641f9dd9fbf038ac050e93d734782c48ff	ros2/dummy_ws/src/dummy_moveit_config/launch/demo.launch.py
+100644 blob e0b8a3d4ece805e0a655e2e0ea72780fd3446680	ros2/dummy_ws/src/dummy_moveit_config/launch/move_group.launch.py
+100644 blob 62a450bdc4e0472830b0247b94e1983cfe793f39	ros2/dummy_ws/src/dummy_moveit_config/launch/moveit_rviz.launch.py
+100644 blob 84b806e42f6681f2ed7e1931c9d1a0304b850c1a	ros2/dummy_ws/src/dummy_moveit_config/launch/rsp.launch.py
+100644 blob edf2128737890c16b3f52d1318a1be00f4fe4594	ros2/dummy_ws/src/dummy_moveit_config/launch/servo_cpp_interface_demo.launch.py
+100644 blob 9d4f50662a253681753d61210d127ccbd93ba53c	ros2/dummy_ws/src/dummy_moveit_config/launch/setup_assistant.launch.py
+100644 blob c0f3c56c9638e61326461700bfef676bad2bfb97	ros2/dummy_ws/src/dummy_moveit_config/launch/spawn_controllers.launch.py
+100644 blob e5f430d4390ada575890d0a9ceec4ff880504950	ros2/dummy_ws/src/dummy_moveit_config/launch/static_virtual_joint_tfs.launch.py
+100644 blob 1a07e287750424208c0bf352a041a8c2a6a2220a	ros2/dummy_ws/src/dummy_moveit_config/launch/warehouse_db.launch.py
+100644 blob f235c7ed038c24a2ecd8873f33dfa4f0348a6a08	ros2/dummy_ws/src/dummy_moveit_config/package.xml
+100644 blob 03fa541fdda4cf6184cb6a487ffca63789a2542f	ros2/dummy_ws/src/dummy_moveit_config/src/servo_cpp_interface_demo.cpp
+100644 blob 0b60503cf53c2a2d64f187c37e4f8cd25a22df7d	ros2/dummy_ws/src/dummy_moveit_config/src/servo_keyboard_input.cpp
+
+exit=0
